@@ -1,0 +1,125 @@
+/* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/images/base 2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center top; 
+}
+
+header {
+    display: flex;
+    justify-content: flex-end; 
+    padding: 15px;
+    margin-top: 30px;
+    margin-right: 45px;
+}
+
+header ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+header ul a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px; 
+}
+
+header ul a:hover {
+    color: rgb(171, 204, 23);
+    transition: 0.3s all;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 50px auto;
+    width: 70%;
+    margin-top: 150px;
+}
+
+.info {
+    flex: 1;
+    margin-right: 20px;
+    color: white; /* Ajuste a cor do texto para se destacar no fundo */
+}
+
+.info h2 {
+    margin-bottom: 10px;
+}
+
+.info ul {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.form-container {
+    flex: 2;
+}
+
+.container {
+    width: 100%;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semitransparente */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+select {
+    width: 48%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

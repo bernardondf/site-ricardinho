@@ -1,0 +1,134 @@
+body {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/images/base\ 2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center top; 
+}
+
+header {
+    display: flex;
+    justify-content: flex-end; 
+    padding: 15px;
+    margin-top: 30px;
+    margin-right: 45px;
+}
+
+header ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+header ul a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px; 
+}
+
+header ul a:hover {
+    color: rgb(171, 204, 23);
+    transition: 0.3s all;
+}
+
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: white;
+}
+
+
+#inscreva-se-btn {
+    border: 2px solid rgb(171, 204, 23);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover {
+    background-color: rgb(171, 204, 23);
+    color: white;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-left: 100px;
+}
+
+aside {
+    max-width: 45%;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Times New Roman', Times, serif;
+}
+
+span {
+    color: rgb(171, 204, 23);
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+article {
+    flex: 1;
+    display: flex;
+    justify-content: center; 
+}
+
+article img {
+    width: auto; 
+    height: auto; 
+    max-width: 1300px;
+    max-height: 700px;
+    object-fit: contain;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: rgb(171, 204, 23);
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}

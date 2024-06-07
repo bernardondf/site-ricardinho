@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    aside {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    header ul a li {
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+
+    article img {
+        max-width: 100%;
+        max-height: auto;
+    }
+
+    h2{
+        font-size: 20px;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <link href="simu.html" rel="stylesheet">
+    <link href="midiasimu.css" rel="stylesheet">
+    <link rel="stylesheet" href="simu.css">
+    <title>Sala dos Simulados</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="/homepage/homepag.html">Início</a></li>
+            <li><a href="https://www.ricardinhomatematicax.com.br/assista-as-aulas" target="_blank">Aulas</a></li>
+            <li><a href="/feedback/feed.html">Feedback</a></li>
+            <li><a href="/contatos/ctt.html">Contato</a></li>
+        </ul>
+    </header>
+
+    <div class="main-content">
+        <div class="info">
+            <h2>Instruções</h2>
+            <ol type="a">
+                <li>Cronometre o tempo de prova</li>
+                <li>Evite distrações</li>
+                <li>Leia com atenção todos os enunciados</li>
+                <li>Bons estudos e boa sorte ;) </li>
+            </ol>
+        </div>
+        <div class="form-container">
+            <form id="dropdownForm">
+                <div class="row">
+                    <select id="dropdown1">
+                        <option value="" disabled selected>Assuntos</option>
+                        <option value="1">Análise combinatória</option>
+                        <option value="2">Funções</option>
+                        <option value="3">Exponencial e Log</option>
+                        <option value="4">Geometria Analítica</option>
+                        <option value="5">Geometria Espacial</option>
+                        <option value="6">Geometria Plana</option>
+                        <option value="7">Matrizes e Sistemas</option>
+                        <option value="8">Números complexos</option>
+                        <option value="9">PA & PG</option>
+                        <option value="10">Polinômios e eqs. polinomiais</option>
+                        <option value="11">Probabilidade</option>
+                        <option value="12">Trigonometria</option>
+                    </select>
+                    <select id="dropdown2">
+                        <option value="" disabled selected>Tipo de Prova</option>
+                        <option value="A">Enem</option>
+                        <option value="B">UFSC</option>
+                        <option value="C">Questões Objetivas</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <select id="dropdown3">
+                        <option value="" disabled selected>Dificuldade</option>
+                        <option value="X">Fácil</option>
+                        <option value="Y">Médio</option>
+                        <option value="Z">Difícil</option>
+                    </select>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <script src="simu.js"></script>
+</body>
+</html>
